@@ -6,7 +6,7 @@
       text-align: center;               
       font-family: 'Arial', sans-serif; 
       font-size: 36px;                  
-      color: #222;                     
+      color: #FFFFFF ;                     
     }
 
     p {
@@ -14,63 +14,96 @@
       font-family: 'Georgia', serif;
       font-size: 24px;
       font-weight: bold;
-      color: #222; 
+      color: #FFFFFF ; 
     }
 
-    a {
-      color: #000;
-      text-decoration: underline;
-      display: block;
-      text-align: center;
+    .toc {
+      width: 60%;
+      margin: 0 auto;
+      background-color: #ffffffcc;
+      padding: 15px;
+      border-radius: 15px;
+      font-family: 'Georgia', serif;
       font-size: 18px;
-      margin-top: 10px;
+    }
+
+    .toc a {
+      display: block;
+      margin: 8px 0;
+      color: #000080;
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
-<body style="background: linear-gradient(to bottom, white, #3a8dde);">
+<body style="background: linear-gradient(to bottom, black, #3a8dde);">
 
-  <h1>Introduction to Cybersecurity</h1>
-  <p>Homepage</p>
+  <h1>Types Of Hacks</h1>  
+  <p><u>And How to Protect Yourself</u></p>
 
-  <img src="https://bluekeyit.com/wp-content/uploads/2022/12/cybersecurity-2048x1152.jpg" 
-       alt="Cybersecurity" 
-       style="display: block; margin: 20px auto; border: 2px solid #ccc; border-radius: 8px; width: 800px; height: 400px; object-fit: cover;">
+  <img src="https://s39569.pcdn.co/wp-content/uploads/2023/06/computer-popup-box-screen-warning-of-a-system-being-hacked-768x384.jpeg" 
+       alt="Hacked" 
+       style="display: block; margin: 20px auto; border: 1px solid #000000; border-radius: 8px; width: 900px; height: 400px; object-fit: cover;">
 
-  <div style="width: 80%; margin: 20px auto; background-color: #f4f4f4; padding: 20px; border-radius: 30px; font-family: 'Georgia', serif; color: #222;">
-    <h2 style="text-align: center;">What is Cybersecurity?</h2>
-    <ul style="font-size: 18px; line-height: 1.6;">
-      <li>A practice of protecting systems, networks, and programs from digital attacks.</li>
-      <li>It ensures confidentiality, integrity, and availability of data.</li>
-
-      <p>What are Cyberattacks?</p>
-      <li>A cyberattack is an unauthorized access into another computer with intention to delete, access or change the content inside.</li>
-      <li>Done by finding gaps within computer firewalls and using hacks to gain access.</li>
-
-      <p>Most Common Hacks Include:</p>
-      <li>Malware</li>
-      <li>Ransomware</li>
-      <li>Denial Of Service (DDOS Attack)</li>
-
-      <p><u>For more information on cyberattacks:</u></p>
-      <a href="file:///C:/Users/Quek%20Hark%20liang/OneDrive%20-%20Republic%20Polytechnic/Documents/cybersecurity.html">Types of Cyberattacks</a>
-
-      <p>How can you protect yourself?</p>
-      <a href="file:///C:/Users/Quek%20Hark%20liang/AppData/Local/Microsoft/Windows/INetCache/IE/9THPE215/DataProtectionPage[1].html">Protecting Your Data</a>
-	  
-	  <p><u>Why are strong passwords important?</u></p>
-	  <li>protects our accounts from getting accessed</li>
-	  <li>Acts as the first line of defense</li>
-	  <a href="file:///C:/Users/Quek%20Hark%20liang/AppData/Local/Microsoft/Windows/INetCache/IE/81NV8TEV/26003665[1].html">Strong Passwords</a>
-    </ul>
+  <!-- TOC Section -->
+  <div class="toc">
+    <strong>Table of Contents</strong>
+    <a href="#what">What are hacks?</a>
+    <a href="#malware">Malware</a>
+    <a href="#ransomware">Ransomware</a>
+    <a href="#trojan">Trojan Attack</a>
+    <a href="#ddos">Denial of Service (DDoS) Attacks</a>
+    <a href="#video">DDoS Explanation Video</a>
   </div>
 
-  <iframe width="600" height="400" src="https://www.youtube.com/embed/inWWhr5tnEA" 
-          style="display: block; margin: 20px auto; border: none;" allowfullscreen></iframe>
+  <!-- Content Section -->
+  <div style="width: 70%; margin: 20px auto; background-color: #FFFFFF; padding: 20px; border-radius: 30px; font-family: 'Georgia', serif; color: #222;">
+    
+    <h2 id="what" style="text-align: center;">What are hacks?</h2>
+    <ul style="font-size: 18px; line-height: 1.6;">
+      <li>Hacks are acts of gaining unauthorized access to a computer system or network, often with malicious intent.</li>
+    </ul>
 
-  <p style="text-align: center; font-size: 16px; color: #000;">
-    Watch directly on YouTube: 
-    <a href="https://www.youtube.com/watch?v=inWWhr5tnEA" target="_blank">https://www.youtube.com/watch?v=inWWhr5tnEA</a>
-  </p>
+    <h3 id="malware" style="color: black;"><u>Malware</u></h3>
+    <ul style="font-size: 18px; line-height: 1.6;">
+      <li>Malwares are a range of hacks used to steal data or spy on people.</li>
+      <li>They include ransomware, worms, and many more.</li>
+    </ul>
+
+    <h3 id="ransomware" style="color: black;"><u>Ransomware Hack</u></h3>
+    <ul style="font-size: 18px; line-height: 1.6;">
+      <li>A type of hack that restricts access to computer systems or files and demands a ransom payment for their release.</li>
+      <li>It typically works by encrypting files, making them inaccessible.</li>
+    </ul>
+
+    <h3 id="trojan" style="color: black;"><u>Trojan Attack</u></h3>
+    <ul style="font-size: 18px; line-height: 1.6;">
+      <li>A type of malicious software (malware) that disguises itself as legitimate or harmless software to trick users into installing it.</li>
+      <li>Used to steal data and gain control of devices.</li>
+      <li>Extremely difficult to delete without a specialist.</li>
+    </ul>
+
+    <h3 id="ddos" style="color: black;"><u>Denial Of Service Attacks</u></h3>
+    <ul style="font-size: 18px; line-height: 1.6;">
+      <li>A type of attack which floods the main server, rendering it offline.</li>
+      <li>Typically uses multiple infected computers controlled by hackers to overwhelm the server.</li>
+    </ul>
+
+    <div id="video" style="text-align: center; margin-top: 40px;">
+      <iframe width="600" height="400" src="https://www.youtube.com/embed/ilhGh9CEIwM" 
+              style="border: none;" allowfullscreen></iframe>
+      <p style="font-size: 16px;">
+        What is a DDOS Attack Exactly: 
+        <a href="https://www.youtube.com/watch?v=ilhGh9CEIwM" target="_blank" style="color: #000080; text-decoration: underline;">
+          https://www.youtube.com/watch?v=ilhGh9CEIwM
+        </a>
+      </p>
+    </div>
+  </div>
 
 </body>
 </html>
+
